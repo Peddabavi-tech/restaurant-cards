@@ -18,7 +18,7 @@ function Card({ restaurant }) {
         <p className="description">{restaurant.description}</p>
 
         <div className="restaurant-footer">
-          <span> {restaurant.deliveryTime}</span>
+          <span> {restaurant.location}</span>
           <span>{restaurant.price}</span>
         </div>
       </div>
